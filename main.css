@@ -95,6 +95,10 @@ nav a:visited{
  #benefitsImpl{
     width: 100%;
     background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+
     
  
 }
