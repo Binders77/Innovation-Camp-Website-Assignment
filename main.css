@@ -64,6 +64,14 @@ nav a:visited{
     margin-top: 300px;
     margin-bottom: 300px;
 }
+#childQuote{
+    font-weight: 
+}
+
+#bildeAvKunUngen{
+    width: 35%;
+    border-radius: 15px;
+}
 
  #cardBox{
      width: 60%;
@@ -95,6 +103,6 @@ nav a:visited{
  #benefitsImpl{
     width: 100%;
     background-color:red;
-    
+       
  
 }
