@@ -160,9 +160,8 @@ nav a:visited{
  }
  div a ul li{
     text-decoration: none;
- }
-    font-weight: bold;
-}
+ } 
+ 
 
 @media only screen and (max-width: 1060px) {
     #cardBox{
