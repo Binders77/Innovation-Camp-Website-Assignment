@@ -138,3 +138,27 @@ nav a:visited{
     margin-bottom: 25px;
     text-align: center;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 15%;
+ }
+
+ div a{
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     margin: 10px;
+ }
+ div a ul{
+     margin-left: 20px;
+ }
+ div a ul li{
+    text-decoration: none;
+ }
