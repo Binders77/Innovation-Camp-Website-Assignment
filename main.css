@@ -26,9 +26,9 @@ nav a{
     margin
 }
 
-nav a:hover{
+nav a:hover {
     cursor: pointer;
-    color:  grey;
+    color: grey;
 }
  nav a:visited{
      color: black;
@@ -58,13 +58,13 @@ nav a:hover{
      display: flex;
      justify-content: center;
      border-radius: 15px;
-     padding: 5px;
+     padding: 25px;
      background-color: floralwhite;
      margin-top: 300px;
  }
 
  #cardPicture{
-     border-radius: 15px;
+    border-radius: 15px;
  }
  #ulMother{
     width: 100%;
