@@ -89,12 +89,15 @@ nav a:visited{
 
  #cardPicture{
     border-radius: 15px;
+    display: flex;
+
+    justify-content: center;
  }
 
  #ulMother{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
  }
  
