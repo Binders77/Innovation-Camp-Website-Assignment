@@ -80,6 +80,9 @@ nav a:visited{
  #ulMother ul li{
     margin: 25px;
  }
- #BenefitsImpl{
-  
+ #benefitsImpl{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
  }
