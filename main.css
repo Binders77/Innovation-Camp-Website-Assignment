@@ -61,7 +61,7 @@ nav a:visited{
     justify-content: center;
     border-radius: 15px;
     padding: 25px;
-    background-color: floralwhite;
+    background-color: white;
     margin-top: 300px;
     margin-bottom: 150px;
 }
@@ -82,7 +82,7 @@ nav a:visited{
     justify-content: center;
     border-radius: 15px;
     padding: 25px;
-    background-color: floralwhite;
+    background-color: white;
     margin-top: 100px;
     margin-bottom: 300px;
  }
@@ -109,11 +109,26 @@ nav a:visited{
  #ulMother ul li{
     margin: 25px;
  }
- 
- #benefitsImplBox{
-    
+
+ #benefitsImpl{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+#benefitsImpl h2{
     width: 100%;
-    background-color:red;
-       
- 
+    margin: 15px;
+}
+
+.icons{
+    width: 50%;
+    border-radius: 15px;
 }
