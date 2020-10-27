@@ -23,14 +23,14 @@ nav a{
     font-size: 30px;
     color: black;
     text-decoration: none;
-    margin
 }
 
 nav a:hover {
     cursor: pointer;
     color: grey;
 }
- nav a:visited{
+
+nav a:visited{
      color: black;
      text-decoration: none;
 
