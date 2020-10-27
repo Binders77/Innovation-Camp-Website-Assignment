@@ -21,20 +21,61 @@ nav{
 
 nav a{
     font-size: 30px;
-    color: rgb(58, 58, 58);
+    color: black;
     text-decoration: none;
+    margin
 }
 
 nav a:hover{
-    color: black;
     cursor: pointer;
+    color:  grey;
 }
  nav a:visited{
-     color: rgb(58, 58, 58);
+     color: black;
      text-decoration: none;
 
  }
 
  h1{
-     margin-top: 110px;
+     margin-top: 150px;
+     text-align: center;
+     font-size: 80px;
+ }
+
+ #main{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+
+
+
+
+
+ #cardBox{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     border-radius: 15px;
+     padding: 5px;
+     background-color: floralwhite;
+     margin-top: 300px;
+ }
+
+ #cardPicture{
+     border-radius: 15px;
+ }
+ #ulMother{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #ulMother ul{
+    font-size: 25px;
+    margin-left: 15px;
+ }
+ #ulMother ul li{
+    margin: 25px;
  }
