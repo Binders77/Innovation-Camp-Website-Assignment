@@ -48,13 +48,14 @@ nav a:visited{
  #main{
      width: 100%;
      display: flex;
-     justify-content: center;
+     justify-content: left;
      flex-wrap: wrap;
  }
 
 
 
 #inspirationBox{
+    margin-left: 5%;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -75,6 +76,7 @@ nav a:visited{
 }
 
  #cardBox{
+    margin-left: 5%;
     width: 70%;
     display: flex;
     justify-content: center;
