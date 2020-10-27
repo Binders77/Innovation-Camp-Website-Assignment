@@ -93,12 +93,21 @@ nav a:visited{
     margin: 25px;
  }
  #benefitsImpl{
+    
     width: 100%;
     background-color:red;
     display: flex;
     justify-content: left;
     align-items: left;
-
+}
+h2{
+    margin: 15px;
+    padding: 15px;
+}
+h2 ul li {
     
- 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
 }
