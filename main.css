@@ -46,13 +46,11 @@ nav a:visited{
  }
 
  #main{
-     width: 100%;
-     display: flex;
-     justify-content: left;
-     flex-wrap: wrap;
- }
-
-
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
 
 #inspirationBox{
     margin-left: 5%;
@@ -79,7 +77,6 @@ nav a:visited{
     margin-left: 5%;
     width: 70%;
     display: flex;
-    justify-content: center;
     border-radius: 15px;
     padding: 25px;
     background-color: white;
@@ -87,11 +84,12 @@ nav a:visited{
     margin-bottom: 300px;
  }
 
+ #cardBox ul{
+    width: 250px;
+ }
+
  #cardPicture{
     border-radius: 15px;
-    display: flex;
-
-    justify-content: center;
  }
 
  #ulMother{
@@ -125,6 +123,7 @@ nav a:visited{
 
 #benefitsImpl h2{
     text-align: center;
+    font-size: 30px;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -162,3 +161,24 @@ nav a:visited{
  div a ul li{
     text-decoration: none;
  }
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1060px) {
+    #cardBox{
+        margin-left: 5%;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 15px;
+        padding: 25px;
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 300px;
+     }
+
+     #cardPicture{
+        border-radius: 15px;
+        width: 300px;
+     }
+  }
